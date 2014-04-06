@@ -1,0 +1,32 @@
+{
+  "name": "hapi-template",
+  "version": "0.0.0",
+  "description": "Simple Hapi.js template to get an app working fast.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angelm/hapi-template.git"
+  },
+  "keywords": [
+    "hapi.js",
+    "node",
+    "template"
+  ],
+  "author": "Angel Municio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angelm/hapi-template/issues"
+  },
+  "homepage": "https://github.com/angelm/hapi-template",
+  "dependencies": {
+    "hapi": "^3.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "should": "^3.2.0"
+  }
+}
